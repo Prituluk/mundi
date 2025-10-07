@@ -1,0 +1,52 @@
+{
+  "menuItems": [
+    {
+      "name": "Vuelos",
+      "slug": "/vuelos",
+      "icon": "flight",
+      "description": "Busca y reserva vuelos nacionales e internacionales"
+    },
+    {
+      "name": "Hoteles",
+      "slug": "/hoteles",
+      "icon": "hotel",
+      "description": "Encuentra hoteles, resorts y alojamientos únicos"
+    },
+    {
+      "name": "Paquetes",
+      "slug": "/paquetes",
+      "icon": "package",
+      "description": "Combina vuelos, hoteles y actividades en un solo paquete"
+    },
+    {
+      "name": "Autos",
+      "slug": "/autos",
+      "icon": "car_rental",
+      "description": "Alquila autos para moverte con libertad durante tu viaje"
+    },
+    {
+      "name": "Actividades",
+      "slug": "/actividades",
+      "icon": "local_activity",
+      "description": "Tours, experiencias y excursiones en tu destino"
+    },
+    {
+      "name": "Asistencia",
+      "slug": "/asistencia",
+      "icon": "support_agent",
+      "description": "Seguro de viaje y asistencia en caso de imprevistos"
+    },
+    {
+      "name": "Cruceros",
+      "slug": "/cruceros",
+      "icon": "directions_boat",
+      "description": "Explora rutas en cruceros nacionales e internacionales"
+    },
+    {
+      "name": "Traslados",
+      "slug": "/traslados",
+      "icon": "airport_shuttle",
+      "description": "Reserva transporte desde y hacia aeropuertos y hoteles"
+    }
+  ]
+}

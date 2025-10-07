@@ -1,0 +1,80 @@
+{
+  "company": {
+    "name": "Mundi",
+    "description": "Mundi is a modern travel agency that connects people with unique experiences around the world. We offer flights, hotels, packages, rentals, and personalized assistance, with the commitment to make your trip easier, more accessible, and safer.",
+    "year_founded": 2020,
+    "slogan": "Your world, just a click away"
+  },
+  "contact": {
+    "customer_service": {
+      "phone_number": "0810.220.9090",
+      "hours": "Monday to Friday from 10 AM to 9 PM / Saturdays from 10 AM to 4 PM",
+      "email": "support@mundi.com"
+    },
+    "sales": {
+      "phone_number": "0810.220.1010",
+      "whatsapp": "+54 911 5500.9090",
+      "hours": "Monday to Sunday and holidays from 9 AM to 11 PM",
+      "email": "sales@mundi.com"
+    },
+    "franchises": {
+      "phone_number": "+54 911 6000.4040",
+      "email": "franchises@mundi.com",
+      "message": "I want to become a franchise!"
+    },
+    "tax_address": {
+      "street": "Av. Corrientes 1234",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "postal_code": "C1043ABN"
+    }
+  },
+  "information": {
+    "who_we_are": "/who-we-are",
+    "payment_methods": "/payment-methods",
+    "branches": "/branches",
+    "frequently_asked_questions": "/faq",
+    "help": "/help"
+  },
+  "legal": {
+    "law_24240": "/legal/law-24240",
+    "general_conditions": "/legal/general-conditions",
+    "security_policy": "/legal/security-policy",
+    "privacy_policy": "/legal/privacy-policy",
+    "terms_and_conditions": "/legal/terms-conditions",
+    "consumer_defense": {
+      "description": "Consumer protection. To file a complaint, click here.",
+      "claim_url": "https://www.argentina.gob.ar/defensadelconsumidor",
+      "general_address": "General Directorate of Consumer Defense and Protection - Buenos Aires City",
+      "queries_url": "https://www.buenosaires.gob.ar/defensaconsumidor"
+    },
+    "registration": {
+      "legal_name": "Mundi S.R.L.",
+      "file": "10452",
+      "disp": "1340/20",
+      "cuit": "30-70951462-9"
+    },
+    "validity": {
+      "start_date": "2025-10-07",
+      "end_date": "2025-10-09",
+      "availability": "4 spots available per product"
+    },
+    "afip_data_fiscal": "https://www.afip.gob.ar/datofiscal"
+  },
+  "extras": {
+    "follow_us": {
+      "facebook": "https://facebook.com/mundi",
+      "instagram": "https://instagram.com/mundi.viajes",
+      "twitter": "https://x.com/mundi_viajes",
+      "youtube": "https://youtube.com/@mundi"
+    },
+    "national_holidays": "/national-holidays",
+    "affiliates": "/affiliates",
+    "rentals": "/rentals",
+    "online_complaints_book": "/complaints-book"
+  },
+  "copyright": {
+    "text": "Copyright © 2025 Mundi. All rights reserved.",
+    "data_notice": "The Agency for Access to Public Information, as the Control Authority of Law No. 25.326, is empowered to handle complaints and claims filed by individuals whose rights are affected by non-compliance with current personal data protection regulations."
+  }
+}

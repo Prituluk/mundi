@@ -1,0 +1,248 @@
+{
+  "status": "success",
+  "data": {
+    "flights": [
+      {
+        "flight_id": "FL1234",
+        "airline": "Aerolineas Argentinas",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "GRU",
+              "city": "São Paulo",
+              "country": "Brazil"
+            },
+            "departure_time": "2025-11-15T10:00:00-03:00",
+            "arrival_time": "2025-11-15T13:30:00-02:00",
+            "duration_minutes": 210,
+            "class": "Economy"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 320.50
+        },
+        "available_seats": 5,
+        "fare_rules": {
+          "non_refundable": true,
+          "change_fee": 100.00
+        }
+      },
+      {
+        "flight_id": "FL5678",
+        "airline": "LATAM Airlines",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "SCL",
+              "city": "Santiago",
+              "country": "Chile"
+            },
+            "departure_time": "2025-11-16T08:30:00-03:00",
+            "arrival_time": "2025-11-16T10:45:00-03:00",
+            "duration_minutes": 135,
+            "class": "Economy"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 180.00
+        },
+        "available_seats": 12,
+        "fare_rules": {
+          "non_refundable": false,
+          "change_fee": 50.00
+        }
+      }
+    ],
+    "hotels": [
+      {
+        "hotel_id": "HT1001",
+        "name": "Hotel Gran Plaza",
+        "rating": 4.5,
+        "address": {
+          "street": "Av. Central 123",
+          "city": "Buenos Aires",
+          "state": "Buenos Aires",
+          "country": "Argentina",
+          "postal_code": "C1000"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Standard Double",
+            "bed_type": "Double",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 120.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Suite",
+            "bed_type": "King",
+            "capacity": 3,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 220.00
+            },
+            "available": false
+          }
+        ]
+      },
+      {
+        "hotel_id": "HT2002",
+        "name": "Resort Playa Blanca",
+        "rating": 5.0,
+        "address": {
+          "street": "Calle Costera 456",
+          "city": "Cancún",
+          "state": "Quintana Roo",
+          "country": "Mexico",
+          "postal_code": "77500"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Ocean View",
+            "bed_type": "King",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 320.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Family Suite",
+            "bed_type": "Queen + Sofa Bed",
+            "capacity": 4,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 450.00
+            },
+            "available": true
+          }
+        ]
+      }
+    ],
+    "tours": [
+      {
+        "tour_id": "TR3001",
+        "title": "City Tour Buenos Aires",
+        "description": "Recorrido de 4 horas por los puntos más emblemáticos de la ciudad",
+        "duration_hours": 4,
+        "price": {
+          "currency": "USD",
+          "amount": 45.00
+        },
+        "available_slots": 20,
+        "schedule": [
+          {
+            "tour_date": "2025-12-01",
+            "start_time": "09:00:00",
+            "end_time": "13:00:00"
+          },
+          {
+            "tour_date": "2025-12-02",
+            "start_time": "14:00:00",
+            "end_time": "18:00:00"
+          }
+        ]
+      },
+      {
+        "tour_id": "TR3002",
+        "title": "Tour Isla Mujeres",
+        "description": "Excursión de día completo a Isla Mujeres con ferry, almuerzo y snorkeling",
+        "duration_hours": 8,
+        "price": {
+          "currency": "USD",
+          "amount": 95.00
+        },
+        "available_slots": 10,
+        "schedule": [
+          {
+            "tour_date": "2025-12-05",
+            "start_time": "07:30:00",
+            "end_time": "15:30:00"
+          }
+        ]
+      }
+    ],
+    "packages": [
+      {
+        "package_id": "PKG4001",
+        "name": "Pack Buenos Aires + City Tour",
+        "description": "3 noches en hotel + vuelo + city tour incluido",
+        "components": {
+          "flight": "FL1234",
+          "hotel": {
+            "hotel_id": "HT1001",
+            "room_id": "R1",
+            "nights": 3
+          },
+          "tour": "TR3001"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 600.00
+        },
+        "available": true,
+        "valid_until": "2025-12-31"
+      },
+      {
+        "package_id": "PKG4002",
+        "name": "Cancún Todo Incluido",
+        "description": "7 noches en resort + vuelo + tour Isla Mujeres",
+        "components": {
+          "flight": "FL5678",
+          "hotel": {
+            "hotel_id": "HT2002",
+            "room_id": "R2",
+            "nights": 7
+          },
+          "tour": "TR3002"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 1800.00
+        },
+        "available": false,
+        "valid_until": "2025-11-30"
+      }
+    ],
+    "currencies": [
+      {
+        "code": "USD",
+        "symbol": "$",
+        "name": "US Dollar",
+        "exchange_rate_to_usd": 1.0
+      },
+      {
+        "code": "ARS",
+        "symbol": "AR$",
+        "name": "Peso Argentino",
+        "exchange_rate_to_usd": 0.008
+      }
+    ]
+  },
+  "meta": {
+    "timestamp": "2025-10-07T12:34:56Z",
+    "request_id": "req_987654321"
+  }
+}

@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.optionList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+.optionList li {
+  text-decoration: none;
+}
