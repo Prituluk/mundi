@@ -10,9 +10,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function SectionPage({ params }: { params: { slug: SlugKey } }) {
+export default async function SectionPage({ params }: { params: { slug: SlugKey } }) {
 
-  const {slug} = params;
+  const {slug} = await params;
 
   const pageData = menu.menuItems.find(item => item.slug === `/${slug}`);
 
@@ -21,8 +21,8 @@ export default function SectionPage({ params }: { params: { slug: SlugKey } }) {
   }
   return (
     <section>
-      <Searcher params={{ slug: params.slug }} />
-      <Main slug={params.slug} />
+      <Searcher params={{ slug }} />
+      <Main slug={slug} />
 
     </section>
   );

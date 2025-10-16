@@ -1,4 +1,5 @@
 import { ApiResponse, SlugMap } from "./types";
+import { SlugSections } from "./SlugSections";
 
 interface MainProps {
   slug: keyof SlugMap;
@@ -14,34 +15,11 @@ export default async function Main({ slug }: MainProps) {
   const data: ApiResponse = await res.json();
   const packages: SlugMap[typeof slug] = data.data[slug as keyof SlugMap] ?? [];
 
+  const SectionComponent = SlugSections[slug];
+  
+  if (!SectionComponent) {
+    return <p>No existe una vista para el slug: {slug}</p>;
+  }
 
-  console.log(packages);
-
-  return (
-    <section>
-      <h2>Paquetes de {slug}</h2>
-      <ul >
-        {packages.map((pkg: any) => (
-          <li
-            key={pkg.id}
-          >
-            <h3>{pkg.name}</h3>
-            <p>{pkg.description}</p>
-            <p>
-              <strong>Precio:</strong> {pkg.price?.currency} $
-              {pkg.price?.amount.toFixed(2)}
-            </p>
-            <p>
-              <strong>Disponibilidad:</strong>{" "}
-              {pkg.available ? "Disponible" : "No disponible"}
-            </p>
-            <p>
-              <strong>Válido hasta:</strong>{" "}
-              {new Date(pkg.valid_until).toLocaleDateString("es-AR")}
-            </p>
-          </li>
-        ))}
-      </ul>
-    </section>
-  );
+  return <SectionComponent packages={packages} />;
 }

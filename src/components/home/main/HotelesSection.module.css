@@ -1,0 +1,62 @@
+.hotelesSection {
+  padding: 2rem;
+  background-color: #f4f6f8;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1e3a8a;
+}
+
+.hotelList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hotelItem {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.hotelName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.rating {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.address {
+  font-size: 0.95rem;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.roomsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roomItem {
+  border-top: 1px solid #e5e7eb;
+  padding: 0.5rem 0;
+}
+
+.roomItem:first-child {
+  border-top: none;
+}
+
+.roomItem p {
+  margin: 0.25rem 0;
+}
