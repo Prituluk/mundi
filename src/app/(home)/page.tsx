@@ -7,7 +7,6 @@ interface Rute {
 export default function SearcherSection() {
   return (
     <>
-
       <Searcher params={{ slug: '/vuelos' }} />
     </>
   )
