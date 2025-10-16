@@ -20,7 +20,6 @@ export async function Footer() {
   const data = await res.json();
 
   const contact: Contact = data.contact;
-  console.log(data);
   
 
   return (

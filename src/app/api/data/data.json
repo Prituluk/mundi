@@ -1,9 +1,9 @@
 {
   "status": "success",
   "data": {
-    "flights": [
+    "vuelos": [
       {
-        "flight_id": "FL1234",
+        "id": "FL1234",
         "airline": "Aerolineas Argentinas",
         "segments": [
           {
@@ -35,7 +35,7 @@
         }
       },
       {
-        "flight_id": "FL5678",
+        "id": "FL5678",
         "airline": "LATAM Airlines",
         "segments": [
           {
@@ -67,9 +67,9 @@
         }
       }
     ],
-    "hotels": [
+    "hoteles": [
       {
-        "hotel_id": "HT1001",
+        "id": "HT1001",
         "name": "Hotel Gran Plaza",
         "rating": 4.5,
         "address": {
@@ -105,7 +105,7 @@
         ]
       },
       {
-        "hotel_id": "HT2002",
+        "id": "HT2002",
         "name": "Resort Playa Blanca",
         "rating": 5.0,
         "address": {
@@ -141,52 +141,9 @@
         ]
       }
     ],
-    "tours": [
+    "paquetes": [
       {
-        "tour_id": "TR3001",
-        "title": "City Tour Buenos Aires",
-        "description": "Recorrido de 4 horas por los puntos más emblemáticos de la ciudad",
-        "duration_hours": 4,
-        "price": {
-          "currency": "USD",
-          "amount": 45.00
-        },
-        "available_slots": 20,
-        "schedule": [
-          {
-            "tour_date": "2025-12-01",
-            "start_time": "09:00:00",
-            "end_time": "13:00:00"
-          },
-          {
-            "tour_date": "2025-12-02",
-            "start_time": "14:00:00",
-            "end_time": "18:00:00"
-          }
-        ]
-      },
-      {
-        "tour_id": "TR3002",
-        "title": "Tour Isla Mujeres",
-        "description": "Excursión de día completo a Isla Mujeres con ferry, almuerzo y snorkeling",
-        "duration_hours": 8,
-        "price": {
-          "currency": "USD",
-          "amount": 95.00
-        },
-        "available_slots": 10,
-        "schedule": [
-          {
-            "tour_date": "2025-12-05",
-            "start_time": "07:30:00",
-            "end_time": "15:30:00"
-          }
-        ]
-      }
-    ],
-    "packages": [
-      {
-        "package_id": "PKG4001",
+        "id": "PKG4001",
         "name": "Pack Buenos Aires + City Tour",
         "description": "3 noches en hotel + vuelo + city tour incluido",
         "components": {
@@ -206,7 +163,7 @@
         "valid_until": "2025-12-31"
       },
       {
-        "package_id": "PKG4002",
+        "id": "PKG4002",
         "name": "Cancún Todo Incluido",
         "description": "7 noches en resort + vuelo + tour Isla Mujeres",
         "components": {
@@ -222,8 +179,122 @@
           "currency": "USD",
           "amount": 1800.00
         },
-        "available": false,
+        "available": true,
         "valid_until": "2025-11-30"
+      }
+    ],
+    "autos": [
+      {
+        "id": "CAR1001",
+        "brand": "Toyota",
+        "model": "Corolla",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 40.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1002",
+        "brand": "Ford",
+        "model": "Escape",
+        "type": "SUV",
+        "seats": 5,
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 65.00
+        },
+        "available": true
+      }
+    ],
+    "actividades": [
+      {
+        "id": "ACT5001",
+        "title": "City Tour Buenos Aires",
+        "duration_hours": 4,
+        "price": {
+          "currency": "USD",
+          "amount": 45.00
+        },
+        "available_slots": 20
+      },
+      {
+        "id": "ACT5002",
+        "title": "Snorkeling Cancún",
+        "duration_hours": 3,
+        "price": {
+          "currency": "USD",
+          "amount": 60.00
+        },
+        "available_slots": 10
+      }
+    ],
+    "asistencia": [
+      {
+        "id": "AS1001",
+        "name": "Seguro de viaje",
+        "description": "Cobertura médica y de viaje",
+        "price": {
+          "currency": "USD",
+          "amount": 15.00
+        }
+      },
+      {
+        "id": "AS1002",
+        "name": "Asistencia en aeropuerto",
+        "description": "Transporte y asistencia en aeropuertos",
+        "price": {
+          "currency": "USD",
+          "amount": 25.00
+        }
+      }
+    ],
+    "cruceros": [
+      {
+        "id": "CR1001",
+        "name": "Caribe Express",
+        "duration_days": 5,
+        "price": {
+          "currency": "USD",
+          "amount": 800.00
+        },
+        "available_cabins": 50
+      },
+      {
+        "id": "CR1002",
+        "name": "Mediterráneo Luxury",
+        "duration_days": 7,
+        "price": {
+          "currency": "USD",
+          "amount": 1500.00
+        },
+        "available_cabins": 30
+      }
+    ],
+    "traslados": [
+      {
+        "id": "TRF1001",
+        "type": "Airport to Hotel",
+        "vehicle": "Van",
+        "seats": 8,
+        "price": {
+          "currency": "USD",
+          "amount": 25.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1002",
+        "type": "Hotel to Airport",
+        "vehicle": "Sedan",
+        "seats": 4,
+        "price": {
+          "currency": "USD",
+          "amount": 20.00
+        },
+        "available": true
       }
     ],
     "currencies": [

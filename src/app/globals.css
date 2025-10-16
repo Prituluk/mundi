@@ -1,4 +1,46 @@
 :root {
-  --primary-color: red;
+  /* 🎨 Paleta Relax Mediterráneo */
+  --color-primary: #5DADE2;       /* Azul cielo – calma y apertura */
+  --color-secondary: #FAD7A0;     /* Arena – conexión con la playa */
+  --color-accent: #F1948A;        /* Coral suave – emoción y cercanía */
+  --color-light: #f0f0f0;         /* Blanco – claridad */
+  --color-dark: #566573;          /* Gris azulado – contraste suave */
+
+  /* 🧭 Tonos de apoyo */
+  --color-primary-light: #AED6F1;
+  --color-secondary-dark: #E59866;
+  --color-accent-light: #F8C6B3;
+
+  /* 🌐 Tipografía */
+  --font-primary: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  --font-secondary: 'Playfair Display', 'Georgia', serif;
+
+  /* 🧱 Tamaños base */
+  --font-size-base: 16px;
+  --font-size-small: 0.875rem;  /* 14px */
+  --font-size-medium: 1rem;     /* 16px */
+  --font-size-large: 1.25rem;   /* 20px */
+  --font-size-xlarge: 2rem;     /* 32px */
+  --font-size-xxlarge: 3rem;    /* 48px */
+
+  /* 🧭 Espaciado y ritmo visual */
+  --line-height-base: 1.6;
+  --line-height-heading: 1.2;
+  --letter-spacing-base: 0.3px;
+
+  /* 🧾 Texto y fondos */
+  --text-color: var(--color-dark);
+  --background-color: var(--color-light);
+  --heading-color: var(--color-primary);
+
+  /* 🎯 Botones */
+  --button-bg: var(--color-primary);
+  --button-text: var(--color-light);
+  --button-hover-bg: var(--color-accent);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

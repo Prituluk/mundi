@@ -1,0 +1,431 @@
+{
+  "menuConfig": {
+    "/vuelos": {
+      "fields": [
+        {
+          "name": "origen",
+          "message": "Ciudad de origen",
+          "type": "string",
+          "placeholder": "Ej: Buenos Aires",
+          "default": "",
+          "validations": {
+            "required": true,
+            "minLength": 3
+          }
+        },
+        {
+          "name": "destino",
+          "message": "Ciudad de destino",
+          "type": "string",
+          "placeholder": "Ej: Madrid",
+          "default": "",
+          "validations": {
+            "required": true,
+            "minLength": 3
+          }
+        },
+        {
+          "name": "fechaIda",
+          "message": "Fecha de ida",
+          "type": "date",
+          "placeholder": "",
+          "default": "",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaVuelta",
+          "message": "Fecha de vuelta",
+          "type": "date",
+          "placeholder": "",
+          "default": "",
+          "validations": {
+            "required": false
+          }
+        },
+        {
+          "name": "pasajeros",
+          "message": "Número de pasajeros",
+          "type": "number",
+          "placeholder": "1",
+          "default": 1,
+          "validations": {
+            "required": true,
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "name": "clase",
+          "message": "Clase de vuelo",
+          "type": "select",
+          "placeholder": "Selecciona una clase",
+          "default": "económica",
+          "options": [
+            "económica",
+            "ejecutiva",
+            "primera"
+          ],
+          "validations": {
+            "required": true
+          }
+        }
+      ]
+    },
+    "/hoteles": {
+      "fields": [
+        {
+          "name": "destino",
+          "message": "Destino o ciudad del hotel",
+          "type": "string",
+          "placeholder": "Ej: Cancún",
+          "default": "",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "checkIn",
+          "message": "Fecha de entrada",
+          "type": "date",
+          "placeholder": "",
+          "default": "",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "checkOut",
+          "message": "Fecha de salida",
+          "type": "date",
+          "placeholder": "",
+          "default": "",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "huespedes",
+          "message": "Número de huéspedes",
+          "type": "number",
+          "placeholder": "Ej: 2",
+          "default": 2,
+          "validations": {
+            "required": true,
+            "min": 1,
+            "max": 20
+          }
+        },
+        {
+          "name": "habitaciones",
+          "message": "Número de habitaciones",
+          "type": "number",
+          "placeholder": "Ej: 1",
+          "default": 1,
+          "validations": {
+            "required": true,
+            "min": 1,
+            "max": 10
+          }
+        }
+      ]
+    },
+    "/paquetes": {
+      "fields": [
+        {
+          "name": "origen",
+          "message": "Ciudad de origen",
+          "type": "string",
+          "placeholder": "Ej: Lima",
+          "default": "",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "destino",
+          "message": "Destino del paquete",
+          "type": "string",
+          "placeholder": "Ej: Punta Cana",
+          "default": "",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaInicio",
+          "message": "Fecha de inicio del paquete",
+          "type": "date",
+          "default": "",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaFin",
+          "message": "Fecha de finalización del paquete",
+          "type": "date",
+          "default": "",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "pasajeros",
+          "message": "Cantidad de personas",
+          "type": "number",
+          "placeholder": "Ej: 2",
+          "default": 1,
+          "validations": {
+            "required": true,
+            "min": 1
+          }
+        }
+      ]
+    },
+    "/autos": {
+      "fields": [
+        {
+          "name": "lugarRetiro",
+          "message": "Lugar de retiro del auto",
+          "type": "string",
+          "placeholder": "Ej: Aeropuerto de Miami",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "lugarDevolucion",
+          "message": "Lugar de devolución del auto",
+          "type": "string",
+          "placeholder": "Ej: Centro de Miami",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaRetiro",
+          "message": "Fecha de retiro",
+          "type": "date",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaDevolucion",
+          "message": "Fecha de devolución",
+          "type": "date",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "tipoVehiculo",
+          "message": "Tipo de vehículo",
+          "type": "select",
+          "options": [
+            "económico",
+            "intermedio",
+            "SUV",
+            "lujo"
+          ],
+          "default": "económico",
+          "validations": {
+            "required": true
+          }
+        }
+      ]
+    },
+    "/actividades": {
+      "fields": [
+        {
+          "name": "destino",
+          "message": "Ciudad o destino de la actividad",
+          "type": "string",
+          "placeholder": "Ej: París",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaActividad",
+          "message": "Fecha de la actividad",
+          "type": "date",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "categoria",
+          "message": "Tipo de actividad",
+          "type": "select",
+          "options": [
+            "Tour",
+            "Aventura",
+            "Cultural",
+            "Gastronómica"
+          ],
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "participantes",
+          "message": "Número de participantes",
+          "type": "number",
+          "placeholder": "Ej: 2",
+          "default": 1,
+          "validations": {
+            "min": 1,
+            "required": true
+          }
+        }
+      ]
+    },
+    "/asistencia": {
+      "fields": [
+        {
+          "name": "paisDestino",
+          "message": "País de destino del viaje",
+          "type": "string",
+          "placeholder": "Ej: España",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaInicio",
+          "message": "Fecha de inicio del viaje",
+          "type": "date",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaFin",
+          "message": "Fecha de finalización del viaje",
+          "type": "date",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "tipoCobertura",
+          "message": "Tipo de cobertura",
+          "type": "select",
+          "options": [
+            "Básica",
+            "Premium",
+            "Familiar"
+          ],
+          "default": "Básica",
+          "validations": {
+            "required": true
+          }
+        }
+      ]
+    },
+    "/cruceros": {
+      "fields": [
+        {
+          "name": "puertoSalida",
+          "message": "Puerto de salida",
+          "type": "string",
+          "placeholder": "Ej: Barcelona",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "puertoLlegada",
+          "message": "Puerto de llegada",
+          "type": "string",
+          "placeholder": "Ej: Roma",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaSalida",
+          "message": "Fecha de salida del crucero",
+          "type": "date",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fechaRegreso",
+          "message": "Fecha de regreso",
+          "type": "date",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "cabina",
+          "message": "Tipo de cabina",
+          "type": "select",
+          "options": [
+            "Interior",
+            "Exterior",
+            "Suite"
+          ],
+          "default": "Interior",
+          "validations": {
+            "required": true
+          }
+        }
+      ]
+    },
+    "/traslados": {
+      "fields": [
+        {
+          "name": "origen",
+          "message": "Lugar de origen del traslado",
+          "type": "string",
+          "placeholder": "Ej: Aeropuerto Ezeiza",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "destino",
+          "message": "Lugar de destino del traslado",
+          "type": "string",
+          "placeholder": "Ej: Hotel Hilton",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "fecha",
+          "message": "Fecha del traslado",
+          "type": "date",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "hora",
+          "message": "Hora del traslado",
+          "type": "time",
+          "validations": {
+            "required": true
+          }
+        },
+        {
+          "name": "pasajeros",
+          "message": "Número de pasajeros",
+          "type": "number",
+          "default": 1,
+          "validations": {
+            "min": 1,
+            "max": 20,
+            "required": true
+          }
+        }
+      ]
+    }
+  }
+}

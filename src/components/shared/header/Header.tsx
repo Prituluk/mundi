@@ -22,7 +22,7 @@ export async function Header() {
       <ul className={styles.optionList}>
         {menu.map((section: MenuItem) => (
           <li key={section.slug}>
-            <Link href={section.slug}>{section.name}</Link>
+            <Link className={styles.list_text} href={section.slug}>{section.name}</Link>
           </li>
         ))}
       </ul>

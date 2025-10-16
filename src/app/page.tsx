@@ -6,9 +6,7 @@ import { Searcher } from "@/components/home/varSearcher";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Searcher/>
-      <Main/>
+      <Hero/>
     </>
   );
 }

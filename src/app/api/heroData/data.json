@@ -1,0 +1,31 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "titulo": "Brasil 2026",
+      "descripcion": "¡Vení y disfrutá de las mejores playas, la samba y el sol tropical!",
+      "imagen_url": "https://cms.w2m.com/dam/Sites/azulmarino/blog/mejores-playas-de-brasil/playa-copacabana-brasil.jpg",
+      "boton_texto": "Ver paquetes",
+      "boton_link": "/destinos/brasil",
+      "activo": true
+    },
+    {
+      "id": 2,
+      "titulo": "Europa Romántica",
+      "descripcion": "Descubrí París, Roma y Barcelona con nuestros tours exclusivos.",
+      "imagen_url": "https://media.urgente24.com/p/8db6ef7f60e64a44e51bc4acf46a4baa/adjuntos/319/imagenes/002/701/0002701364/imagepng.png",
+      "boton_texto": "Explorar viajes",
+      "boton_link": "/destinos/europa",
+      "activo": true
+    },
+    {
+      "id": 3,
+      "titulo": "Aventura en la Patagonia",
+      "descripcion": "Naturaleza, glaciares y montañas te esperan al sur del mundo.",
+      "imagen_url": "https://img.cronista.com/files/image/393/393517/617aeb7754300-screen-and-max-width480px_950_534!.webp?s=4573f0689d01d0d94bc4251ea78be1fa&d=1759272867&oe=jpg",
+      "boton_texto": "Ver más",
+      "boton_link": "/destinos/patagonia",
+      "activo": false
+    }
+  ]
+}

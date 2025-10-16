@@ -5,55 +5,26 @@ import { Extras } from './footerInterfaces';
 interface Props {
   extras: Extras;
 }
-
-// Mapa que relaciona nombre de red social con el icono
-const iconMap: Record<string, IconType> = {
-  facebook: FaFacebook,
-  instagram: FaInstagram,
-  twitter: FaTwitter,
-  youtube: FaYoutube,
-};
-
-export function ExtrasSection({ extras }: Props) {
-  const { follow_us, national_holidays, affiliates, rentals, online_complaints_book } = extras;
-
-  const followUsLinks = Object.entries(follow_us); // [['facebook', 'url'], ...]
-
+export const ExtrasSection = ({extras}: Props) => {
   return (
-    <section>
-      <h3>Extras</h3>
-
+    <footer>
       <div>
-        <h4>Follow Us</h4>
-        <ul style={{ display: 'flex', gap: '1rem', listStyle: 'none', padding: 0 }}>
-          {followUsLinks.map(([platform, url]) => {
-            const Icon = iconMap[platform.toLowerCase()];
-            return (
-              <li key={platform}>
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}
-                >
-                  {Icon && <Icon />}
-                  {platform.charAt(0).toUpperCase() + platform.slice(1)}
-                </a>
-              </li>
-            );
-          })}
-        </ul>
+        <h2>Follow Us</h2>
+        <div>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <FaFacebook />
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <FaTwitter />
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+            <FaYoutube />
+          </a>
+        </div>
       </div>
-
-      <div>
-        <h4>Other Links</h4>
-        <ul>
-          <li><a href={national_holidays}>National Holidays</a></li>
-          <li><a href={affiliates}>Affiliates</a></li>
-          <li><a href={rentals}>Rentals</a></li>
-          <li><a href={online_complaints_book}>Online Complaints Book</a></li>
-        </ul>
-      </div>
-    </section>
+    </footer>
   );
-}
+};

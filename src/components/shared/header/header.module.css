@@ -1,9 +1,13 @@
 .header {
-  width: 100%;
+  width: 90%;
   height: 60px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--color-light);
+  color: var(--text-color);
+  font-size: var(--font-size-base);
 }
 .optionList {
   width: 100%;
@@ -15,4 +19,9 @@
 }
 .optionList li {
   text-decoration: none;
+}
+.list_text {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: var(--font-size-base);
 }

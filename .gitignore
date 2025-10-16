@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.log
+
+# Archivos generados por Create Next App / Turbopack / Dev
+public/Create\ Next\ App*
+public/*.html
+public/*.js
