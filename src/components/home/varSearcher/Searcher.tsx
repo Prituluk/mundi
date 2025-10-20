@@ -40,36 +40,33 @@ export async function Searcher({ params }: { params: { slug: string } }) {
   return (
     <section className={styles.searcher}>
       <h4>{params.slug}</h4>
-      <form action="/submit" method='post'>
-        <fieldset className={styles.fieldset}>
-          {fields.map((field: SearcherField) => (
-            <div key={field.name}>
-              <label>{field.message}</label>
-              <br />
-
-              {
-                field.type === 'select' ? (
-                  <select defaultValue={field.default}>
-                    {
-                      field.options?.map((opt) => (
-                        <option key={opt} value={opt}>{opt}</option>
-                      ))
-                    }
-                  </select>
-                ) : (
-                  <input
-                    type={field.type}
-                    placeholder={field.placeholder}
-                    defaultValue={field.default}
-
-                  />
-                )
-              }
-            </div>
-          ))}
-          <button type='submit'>Buscar</button>
-        </fieldset>
+      <form action="/submit" method="post" className={styles.form}>
+        {fields.map((field: SearcherField) => (
+          <div key={field.name} className={styles.formField}>
+            <label>{field.message}</label>
+            <br />
+            {field.type === "select" ? (
+              <select defaultValue={field.default}>
+                {field.options?.map((opt) => (
+                  <option key={opt} value={opt}>
+                    {opt}
+                  </option>
+                ))}
+              </select>
+            ) : (
+              <input
+                type={field.type}
+                placeholder={field.placeholder}
+                defaultValue={field.default}
+              />
+            )}
+          </div>
+        ))}
+        <button type="submit" className={styles.submitButton}>
+          Buscar
+        </button>
       </form>
     </section>
+
   )
 }

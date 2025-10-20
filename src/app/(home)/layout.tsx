@@ -10,7 +10,6 @@ export default function HomeLayout({
     <main>
 
       {children}
-      <Hero />
 
     </main>
   );

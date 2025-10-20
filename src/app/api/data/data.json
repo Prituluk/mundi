@@ -5,6 +5,7 @@
       {
         "id": "FL1234",
         "airline": "Aerolineas Argentinas",
+        "image": "https://www.viajandoabrasil.com/wp-content/uploads/2023/02/PLAYA-SANTOS-BRASIL.jpg",
         "segments": [
           {
             "segment_id": "SEG1",
@@ -37,6 +38,7 @@
       {
         "id": "FL5678",
         "airline": "LATAM Airlines",
+        "image": "https://s7e6w6d2.delivery.rocketcdn.me/wp-content/uploads/2024/12/santiago.de_.chile_-2-1068x601.webp",
         "segments": [
           {
             "segment_id": "SEG1",
@@ -64,6 +66,270 @@
         "fare_rules": {
           "non_refundable": false,
           "change_fee": 50.00
+        }
+      },
+      {
+        "id": "FL9012",
+        "airline": "Gol Linhas Aéreas",
+        "image": "https://content.r9cdn.net/rimg/dimg/1e/6a/2c1fc5c3-city-12109-167c3f9f0e8.jpg",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "RIO",
+              "city": "Río de Janeiro",
+              "country": "Brazil"
+            },
+            "departure_time": "2025-11-17T07:00:00-03:00",
+            "arrival_time": "2025-11-17T10:00:00-03:00",
+            "duration_minutes": 180,
+            "class": "Economy"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 250.00
+        },
+        "available_seats": 9,
+        "fare_rules": {
+          "non_refundable": true,
+          "change_fee": 80.00
+        }
+      },
+      {
+        "id": "FL3456",
+        "airline": "Sky Airline",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Sky_Airline_A320neo.jpg",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "LIM",
+              "city": "Lima",
+              "country": "Peru"
+            },
+            "departure_time": "2025-11-18T14:30:00-03:00",
+            "arrival_time": "2025-11-18T17:45:00-05:00",
+            "duration_minutes": 255,
+            "class": "Economy"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 290.00
+        },
+        "available_seats": 7,
+        "fare_rules": {
+          "non_refundable": false,
+          "change_fee": 70.00
+        }
+      },
+      {
+        "id": "FL7890",
+        "airline": "Copa Airlines",
+        "image": "https://www.panama24horas.com.pa/noticias/wp-content/uploads/2023/05/copa-airlines.jpg",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "PTY",
+              "city": "Panama City",
+              "country": "Panama"
+            },
+            "departure_time": "2025-11-19T23:45:00-03:00",
+            "arrival_time": "2025-11-20T05:10:00-05:00",
+            "duration_minutes": 445,
+            "class": "Economy"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 410.00
+        },
+        "available_seats": 6,
+        "fare_rules": {
+          "non_refundable": true,
+          "change_fee": 120.00
+        }
+      },
+      {
+        "id": "FL2345",
+        "airline": "Avianca",
+        "image": "https://www.elcolombiano.com/documents/10157/0/580x326/0c1/580d580/none/11101/EMAC/image_content_41338407_20210806164452.jpg",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "BOG",
+              "city": "Bogotá",
+              "country": "Colombia"
+            },
+            "departure_time": "2025-11-20T09:15:00-03:00",
+            "arrival_time": "2025-11-20T12:00:00-05:00",
+            "duration_minutes": 405,
+            "class": "Business"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 550.00
+        },
+        "available_seats": 3,
+        "fare_rules": {
+          "non_refundable": false,
+          "change_fee": 0.00
+        }
+      },
+      {
+        "id": "FL6789",
+        "airline": "JetSMART",
+        "image": "https://cdn.buscador.com.ar/imgs/jetsmart-argentina.jpg",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "AEP",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "MDZ",
+              "city": "Mendoza",
+              "country": "Argentina"
+            },
+            "departure_time": "2025-11-21T06:00:00-03:00",
+            "arrival_time": "2025-11-21T07:30:00-03:00",
+            "duration_minutes": 90,
+            "class": "Economy"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 95.00
+        },
+        "available_seats": 15,
+        "fare_rules": {
+          "non_refundable": true,
+          "change_fee": 40.00
+        }
+      },
+      {
+        "id": "FL4321",
+        "airline": "Aeroméxico",
+        "image": "https://www.reportur.com/wp-content/uploads/2023/04/aeromexico.jpg",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "MEX",
+              "city": "Ciudad de México",
+              "country": "Mexico"
+            },
+            "departure_time": "2025-11-22T08:00:00-03:00",
+            "arrival_time": "2025-11-22T16:45:00-06:00",
+            "duration_minutes": 645,
+            "class": "Economy"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 780.00
+        },
+        "available_seats": 4,
+        "fare_rules": {
+          "non_refundable": true,
+          "change_fee": 150.00
+        }
+      },
+      {
+        "id": "FL8765",
+        "airline": "Iberia",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Iberia_Airbus_A350-900_EC-MXV.jpg",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "MAD",
+              "city": "Madrid",
+              "country": "Spain"
+            },
+            "departure_time": "2025-11-23T13:00:00-03:00",
+            "arrival_time": "2025-11-24T05:30:00+01:00",
+            "duration_minutes": 750,
+            "class": "Premium Economy"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 990.00
+        },
+        "available_seats": 8,
+        "fare_rules": {
+          "non_refundable": false,
+          "change_fee": 100.00
+        }
+      },
+      {
+        "id": "FL5432",
+        "airline": "Qatar Airways",
+        "image": "https://static01.nyt.com/images/2023/10/31/multimedia/31fly-qatar-01-kwgh/31fly-qatar-01-kwgh-superJumbo.jpg",
+        "segments": [
+          {
+            "segment_id": "SEG1",
+            "origin": {
+              "airport_code": "EZE",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            },
+            "destination": {
+              "airport_code": "DOH",
+              "city": "Doha",
+              "country": "Qatar"
+            },
+            "departure_time": "2025-11-24T18:00:00-03:00",
+            "arrival_time": "2025-11-25T17:10:00+03:00",
+            "duration_minutes": 1270,
+            "class": "Business"
+          }
+        ],
+        "price": {
+          "currency": "USD",
+          "amount": 1850.00
+        },
+        "available_seats": 2,
+        "fare_rules": {
+          "non_refundable": false,
+          "change_fee": 0.00
         }
       }
     ],

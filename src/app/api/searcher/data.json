@@ -4,7 +4,7 @@
       "fields": [
         {
           "name": "origen",
-          "message": "Ciudad de origen",
+          "message": "Origen",
           "type": "string",
           "placeholder": "Ej: Buenos Aires",
           "default": "",
@@ -15,7 +15,7 @@
         },
         {
           "name": "destino",
-          "message": "Ciudad de destino",
+          "message": "Destino",
           "type": "string",
           "placeholder": "Ej: Madrid",
           "default": "",
@@ -46,7 +46,7 @@
         },
         {
           "name": "pasajeros",
-          "message": "Número de pasajeros",
+          "message": "Pasajeros",
           "type": "number",
           "placeholder": "1",
           "default": 1,
@@ -58,7 +58,7 @@
         },
         {
           "name": "clase",
-          "message": "Clase de vuelo",
+          "message": "Clase",
           "type": "select",
           "placeholder": "Selecciona una clase",
           "default": "económica",

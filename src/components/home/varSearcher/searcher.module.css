@@ -1,13 +1,73 @@
 .searcher {
   width: 80%;
-  height: auto;
   margin: 0 auto;
+  box-sizing: border-box;
 }
-.fieldset {
-  width: 100%;
+
+.form {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  gap: 16px;
+  width: 100%;
+  background-color: cadetblue;
   border-radius: 10px;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.formField {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.formField label {
+  font-size: 0.9rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.formField input,
+.formField select {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.submitButton {
+  flex: 0 0 auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #004c4c;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.submitButton:hover {
+  background-color: #006666;
+}
+
+@media (max-width: 600px) {
+  .form {
+    flex-wrap: wrap;
+  }
+
+  .formField {
+    flex: 1 1 100%;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
 }
