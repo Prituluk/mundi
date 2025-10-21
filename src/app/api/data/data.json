@@ -337,6 +337,7 @@
       {
         "id": "HT1001",
         "name": "Hotel Gran Plaza",
+        "image": "https://resizer.iproimg.com/unsafe/1280x/filters:format(webp):quality(85):max_bytes(102400)/https://assets.iprofesional.com/assets/jpg/2025/08/601813.jpg",
         "rating": 4.5,
         "address": {
           "street": "Av. Central 123",
@@ -373,6 +374,7 @@
       {
         "id": "HT2002",
         "name": "Resort Playa Blanca",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37418688.jpg?k=5da9a0343671b9121deb67ec90cae14565b3c5838fd4c8663151311b5b5c1b13&o=",
         "rating": 5.0,
         "address": {
           "street": "Calle Costera 456",
@@ -405,12 +407,309 @@
             "available": true
           }
         ]
+      },
+      {
+        "id": "HT3003",
+        "name": "Mountain Retreat",
+        "image": "https://images.unsplash.com/photo-1551882547-ff47a2a1cba2",
+        "rating": 4.0,
+        "address": {
+          "street": "Calle Montaña 789",
+          "city": "Bariloche",
+          "state": "Río Negro",
+          "country": "Argentina",
+          "postal_code": "8400"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Standard",
+            "bed_type": "Double",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 110.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Deluxe Suite",
+            "bed_type": "King",
+            "capacity": 3,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 200.00
+            },
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "HT4004",
+        "name": "City Center Hotel",
+        "image": "https://images.unsplash.com/photo-1576675786321-8246d1b0b8d4",
+        "rating": 3.8,
+        "address": {
+          "street": "Av. Urbana 321",
+          "city": "Santiago",
+          "state": "Santiago",
+          "country": "Chile",
+          "postal_code": "8320000"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Single",
+            "bed_type": "Single",
+            "capacity": 1,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 75.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Double",
+            "bed_type": "Double",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 130.00
+            },
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "HT5005",
+        "name": "Beachside Inn",
+        "image": "https://images.unsplash.com/photo-1501117716987-c8e92d7764e2",
+        "rating": 4.2,
+        "address": {
+          "street": "Playa 12",
+          "city": "Punta del Este",
+          "state": "Maldonado",
+          "country": "Uruguay",
+          "postal_code": "20000"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Ocean View",
+            "bed_type": "Queen",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 210.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Suite",
+            "bed_type": "King",
+            "capacity": 3,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 350.00
+            },
+            "available": false
+          }
+        ]
+      },
+      {
+        "id": "HT6006",
+        "name": "Desert Oasis",
+        "image": "https://images.unsplash.com/photo-1560347876-aeef00ee58a1",
+        "rating": 4.7,
+        "address": {
+          "street": "Av. Arena 88",
+          "city": "Marrakech",
+          "state": "Marrakech-Safi",
+          "country": "Morocco",
+          "postal_code": "40000"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Luxury Tent",
+            "bed_type": "King",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 400.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Standard Room",
+            "bed_type": "Double",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 180.00
+            },
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "HT7007",
+        "name": "Alpine Lodge",
+        "image": "https://images.unsplash.com/photo-1519821172142-1b6b38c3d207",
+        "rating": 4.3,
+        "address": {
+          "street": "Calle Nevado 55",
+          "city": "Zurich",
+          "state": "Zurich",
+          "country": "Switzerland",
+          "postal_code": "8001"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Double Room",
+            "bed_type": "Double",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 250.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Suite",
+            "bed_type": "King",
+            "capacity": 3,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 450.00
+            },
+            "available": false
+          }
+        ]
+      },
+      {
+        "id": "HT8008",
+        "name": "Urban Boutique Hotel",
+        "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "rating": 4.0,
+        "address": {
+          "street": "Calle Moderna 14",
+          "city": "Madrid",
+          "state": "Madrid",
+          "country": "Spain",
+          "postal_code": "28001"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Single Room",
+            "bed_type": "Single",
+            "capacity": 1,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 100.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Double Room",
+            "bed_type": "Double",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 180.00
+            },
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "HT9009",
+        "name": "Seaside Escape",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "rating": 4.6,
+        "address": {
+          "street": "Av. Costa 77",
+          "city": "Miami Beach",
+          "state": "Florida",
+          "country": "USA",
+          "postal_code": "33139"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Oceanfront Room",
+            "bed_type": "Queen",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 300.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Penthouse Suite",
+            "bed_type": "King",
+            "capacity": 4,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 750.00
+            },
+            "available": false
+          }
+        ]
+      },
+      {
+        "id": "HT1010",
+        "name": "Historic Downtown Hotel",
+        "image": "https://images.unsplash.com/photo-1582719478146-8d4f617a0ed9",
+        "rating": 4.1,
+        "address": {
+          "street": "Calle Antigua 5",
+          "city": "Lisbon",
+          "state": "Lisbon",
+          "country": "Portugal",
+          "postal_code": "1100-123"
+        },
+        "rooms": [
+          {
+            "room_id": "R1",
+            "type": "Standard Room",
+            "bed_type": "Double",
+            "capacity": 2,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 140.00
+            },
+            "available": true
+          },
+          {
+            "room_id": "R2",
+            "type": "Deluxe Room",
+            "bed_type": "King",
+            "capacity": 3,
+            "price_per_night": {
+              "currency": "USD",
+              "amount": 220.00
+            },
+            "available": true
+          }
+        ]
       }
     ],
     "paquetes": [
       {
         "id": "PKG4001",
         "name": "Pack Buenos Aires + City Tour",
+        "image": "https://images.squarespace-cdn.com/content/v1/4f7c90c9e4b00e1727497e22/1486047705909-2MB12R6F04O5VKRWIDOK/CIty_Tour.jpeg?format=500w",
         "description": "3 noches en hotel + vuelo + city tour incluido",
         "components": {
           "flight": "FL1234",
@@ -431,6 +730,7 @@
       {
         "id": "PKG4002",
         "name": "Cancún Todo Incluido",
+        "image": "https://www.mexicodestinos.com/blog/wp-content/uploads/2021/03/playa-cancun.jpg",
         "description": "7 noches en resort + vuelo + tour Isla Mujeres",
         "components": {
           "flight": "FL5678",
@@ -447,6 +747,174 @@
         },
         "available": true,
         "valid_until": "2025-11-30"
+      },
+      {
+        "id": "PKG4003",
+        "name": "Aventura en Machu Picchu",
+        "image": "https://www.peru.travel/Contenido/General/Imagen/es/92/1.1/machu-picchu.jpg",
+        "description": "5 noches en Cusco + vuelo + excursión a Machu Picchu",
+        "components": {
+          "flight": "FL7890",
+          "hotel": {
+            "hotel_id": "HT3003",
+            "room_id": "R1",
+            "nights": 5
+          },
+          "tour": "TR3003"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 950.00
+        },
+        "available": true,
+        "valid_until": "2025-12-15"
+      },
+      {
+        "id": "PKG4004",
+        "name": "París Romántico",
+        "image": "https://cdn.britannica.com/28/94328-050-6FF80F1A/Eiffel-Tower-Seine-River-Paris.jpg",
+        "description": "4 noches en hotel 4* + vuelo + crucero por el Sena",
+        "components": {
+          "flight": "FL4321",
+          "hotel": {
+            "hotel_id": "HT4004",
+            "room_id": "R2",
+            "nights": 4
+          },
+          "tour": "TR3004"
+        },
+        "price": {
+          "currency": "EUR",
+          "amount": 1200.00
+        },
+        "available": true,
+        "valid_until": "2025-10-31"
+      },
+      {
+        "id": "PKG4005",
+        "name": "Safari en Kenia",
+        "image": "https://www.safaribookings.com/blog/images/blog/kenya-safari-5-best-parks.jpg",
+        "description": "6 noches + vuelo + safari guiado en Masai Mara",
+        "components": {
+          "flight": "FL8765",
+          "hotel": {
+            "hotel_id": "HT5005",
+            "room_id": "R1",
+            "nights": 6
+          },
+          "tour": "TR3005"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 2100.00
+        },
+        "available": true,
+        "valid_until": "2025-09-30"
+      },
+      {
+        "id": "PKG4006",
+        "name": "Tokio Moderno",
+        "image": "https://content.r9cdn.net/rimg/dimg/69/5c/8e42b30e-city-36614-165a3e51b88.jpg",
+        "description": "5 noches + vuelo + excursión cultural por Tokio",
+        "components": {
+          "flight": "FL6543",
+          "hotel": {
+            "hotel_id": "HT6006",
+            "room_id": "R3",
+            "nights": 5
+          },
+          "tour": "TR3006"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 1750.00
+        },
+        "available": true,
+        "valid_until": "2025-12-31"
+      },
+      {
+        "id": "PKG4007",
+        "name": "Aventura en Patagonia",
+        "image": "https://www.patagonia-argentina.com/wp-content/uploads/2016/10/fitz-roy.jpg",
+        "description": "6 noches + vuelo + trekking en El Chaltén",
+        "components": {
+          "flight": "FL9087",
+          "hotel": {
+            "hotel_id": "HT7007",
+            "room_id": "R1",
+            "nights": 6
+          },
+          "tour": "TR3007"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 1300.00
+        },
+        "available": true,
+        "valid_until": "2025-12-01"
+      },
+      {
+        "id": "PKG4008",
+        "name": "Nueva York Express",
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/ab/7a/06.jpg",
+        "description": "3 noches + vuelo + tour por Manhattan",
+        "components": {
+          "flight": "FL2233",
+          "hotel": {
+            "hotel_id": "HT8008",
+            "room_id": "R2",
+            "nights": 3
+          },
+          "tour": "TR3008"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 900.00
+        },
+        "available": true,
+        "valid_until": "2025-11-15"
+      },
+      {
+        "id": "PKG4009",
+        "name": "Ruta Maya México",
+        "image": "https://www.traveltomexico.mx/wp-content/uploads/2021/07/ruinas-mayas-chichen-itza.jpg",
+        "description": "5 noches + vuelo + tour arqueológico en Yucatán",
+        "components": {
+          "flight": "FL3344",
+          "hotel": {
+            "hotel_id": "HT9009",
+            "room_id": "R1",
+            "nights": 5
+          },
+          "tour": "TR3009"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 1100.00
+        },
+        "available": true,
+        "valid_until": "2025-12-20"
+      },
+      {
+        "id": "PKG4010",
+        "name": "Bali Relax Total",
+        "image": "https://www.balidiscovery.com/wp-content/uploads/2022/07/bali-beach.jpg",
+        "description": "7 noches + vuelo + spa y actividades en la playa",
+        "components": {
+          "flight": "FL4455",
+          "hotel": {
+            "hotel_id": "HT1010",
+            "room_id": "R2",
+            "nights": 7
+          },
+          "tour": "TR3010"
+        },
+        "price": {
+          "currency": "USD",
+          "amount": 1600.00
+        },
+        "available": true,
+        "valid_until": "2025-12-31"
       }
     ],
     "autos": [
@@ -456,6 +924,7 @@
         "model": "Corolla",
         "type": "Sedan",
         "seats": 5,
+        "image": "https://www.toyota.com/imgix/responsive/images/mlp/colorizer/2024/corolla/1F7.png",
         "price_per_day": {
           "currency": "USD",
           "amount": 40.00
@@ -468,9 +937,114 @@
         "model": "Escape",
         "type": "SUV",
         "seats": 5,
+        "image": "https://www.ford.com/is/image/content/dam/brand_ford/en_us/brand/suvs/escape/2024/collections/3-2/24_FRD_ESP_40634_32.jpg",
         "price_per_day": {
           "currency": "USD",
           "amount": 65.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1003",
+        "brand": "Chevrolet",
+        "model": "Onix",
+        "type": "Hatchback",
+        "seats": 5,
+        "image": "https://www.chevrolet.com.ar/content/dam/chevrolet/south-america/argentina/espanol/index/cars/2024-onix/colorizer/azul-sea.png",
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 38.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1004",
+        "brand": "Hyundai",
+        "model": "Tucson",
+        "type": "SUV",
+        "seats": 5,
+        "image": "https://www.hyundaiusa.com/content/dam/hyundai/na/us/myhyundai/tucson/2024/gallery/2024-tucson-limited-hybrid.jpg",
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 70.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1005",
+        "brand": "Nissan",
+        "model": "Sentra",
+        "type": "Sedan",
+        "seats": 5,
+        "image": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/sentra/2024/overview/2024-nissan-sentra-sedan.jpg",
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 45.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1006",
+        "brand": "Jeep",
+        "model": "Renegade",
+        "type": "SUV",
+        "seats": 5,
+        "image": "https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/2023/renegade/gallery/exterior/2023-jeep-renegade-trailhawk-01.jpg",
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 75.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1007",
+        "brand": "Volkswagen",
+        "model": "Golf",
+        "type": "Hatchback",
+        "seats": 5,
+        "image": "https://www.volkswagen.com.au/content/dam/vw-ngw/vw_pkw/importers/au/models/golf-8/my23/overview/GTI/golf-gti-overview-hero-my23.jpg",
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 55.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1008",
+        "brand": "BMW",
+        "model": "320i",
+        "type": "Sedan",
+        "seats": 5,
+        "image": "https://www.bmwusa.com/content/dam/bmwusa/3-series/sedan/2024/BMW-MY24-3Series-Sedan-Overview-Page-Desktop.jpg",
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 120.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1009",
+        "brand": "Kia",
+        "model": "Sportage",
+        "type": "SUV",
+        "seats": 5,
+        "image": "https://www.kia.com/us/content/dam/kia/us/en/vehicles/sportage/2024/overview/2024-sportage-x-line-awd.jpg",
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 68.00
+        },
+        "available": true
+      },
+      {
+        "id": "CAR1010",
+        "brand": "Tesla",
+        "model": "Model 3",
+        "type": "Sedan Eléctrico",
+        "seats": 5,
+        "image": "https://www.tesla.com/sites/default/files/modelsx-new/social/model-3-hero-social.jpg",
+        "price_per_day": {
+          "currency": "USD",
+          "amount": 150.00
         },
         "available": true
       }
@@ -480,6 +1054,7 @@
         "id": "ACT5001",
         "title": "City Tour Buenos Aires",
         "duration_hours": 4,
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e8/b9/14.jpg",
         "price": {
           "currency": "USD",
           "amount": 45.00
@@ -490,18 +1065,108 @@
         "id": "ACT5002",
         "title": "Snorkeling Cancún",
         "duration_hours": 3,
+        "image": "https://cdn.getyourguide.com/img/tour/5e9e5e86cdbf7.jpeg/146.jpg",
         "price": {
           "currency": "USD",
           "amount": 60.00
         },
         "available_slots": 10
+      },
+      {
+        "id": "ACT5003",
+        "title": "Tour Machu Picchu",
+        "duration_hours": 8,
+        "image": "https://www.peru.travel/Contenido/General/Imagen/es/92/1.1/machu-picchu.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 120.00
+        },
+        "available_slots": 15
+      },
+      {
+        "id": "ACT5004",
+        "title": "Crucero por el Sena en París",
+        "duration_hours": 2,
+        "image": "https://cdn.sortiraparis.com/images/80/91154/801074-le-diner-croisiere-de-la-saint-valentin-sur-la-seine-avec-paris-en-scene.jpg",
+        "price": {
+          "currency": "EUR",
+          "amount": 55.00
+        },
+        "available_slots": 25
+      },
+      {
+        "id": "ACT5005",
+        "title": "Safari Fotográfico en Kenia",
+        "duration_hours": 6,
+        "image": "https://www.safaribookings.com/blog/images/blog/kenya-safari-5-best-parks.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 150.00
+        },
+        "available_slots": 12
+      },
+      {
+        "id": "ACT5006",
+        "title": "Tour Nocturno por Tokio",
+        "duration_hours": 5,
+        "image": "https://www.japan.travel/upload/2020/07/23/Tokyo-Night.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 80.00
+        },
+        "available_slots": 18
+      },
+      {
+        "id": "ACT5007",
+        "title": "Trekking en El Chaltén",
+        "duration_hours": 7,
+        "image": "https://www.patagonia-argentina.com/wp-content/uploads/2016/10/fitz-roy.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 95.00
+        },
+        "available_slots": 14
+      },
+      {
+        "id": "ACT5008",
+        "title": "Tour Nocturno en Nueva York",
+        "duration_hours": 3,
+        "image": "https://cdn.getyourguide.com/img/tour/5f1ac6cb3f937.jpeg/146.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 65.00
+        },
+        "available_slots": 20
+      },
+      {
+        "id": "ACT5009",
+        "title": "Exploración Ruinas Mayas",
+        "duration_hours": 6,
+        "image": "https://www.traveltomexico.mx/wp-content/uploads/2021/07/ruinas-mayas-chichen-itza.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 85.00
+        },
+        "available_slots": 16
+      },
+      {
+        "id": "ACT5010",
+        "title": "Clase de Surf en Bali",
+        "duration_hours": 2,
+        "image": "https://balispirit.com/wp-content/uploads/2019/07/bali-surf-lesson.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 50.00
+        },
+        "available_slots": 22
       }
     ],
     "asistencia": [
       {
         "id": "AS1001",
         "name": "Seguro de viaje",
-        "description": "Cobertura médica y de viaje",
+        "description": "Cobertura médica y de viaje ante imprevistos",
+        "image": "https://cdn-icons-png.flaticon.com/512/3063/3063815.png",
         "price": {
           "currency": "USD",
           "amount": 15.00
@@ -510,10 +1175,91 @@
       {
         "id": "AS1002",
         "name": "Asistencia en aeropuerto",
-        "description": "Transporte y asistencia en aeropuertos",
+        "description": "Transporte y ayuda personalizada en aeropuertos",
+        "image": "https://cdn-icons-png.flaticon.com/512/190/190493.png",
         "price": {
           "currency": "USD",
           "amount": 25.00
+        }
+      },
+      {
+        "id": "AS1003",
+        "name": "Cobertura por cancelación",
+        "description": "Reembolso por cancelaciones de vuelos o viajes",
+        "image": "https://cdn-icons-png.flaticon.com/512/3063/3063779.png",
+        "price": {
+          "currency": "USD",
+          "amount": 18.00
+        }
+      },
+      {
+        "id": "AS1004",
+        "name": "Seguro de equipaje",
+        "description": "Protección ante pérdida o daño de equipaje",
+        "image": "https://cdn-icons-png.flaticon.com/512/942/942748.png",
+        "price": {
+          "currency": "USD",
+          "amount": 10.00
+        }
+      },
+      {
+        "id": "AS1005",
+        "name": "Cobertura médica premium",
+        "description": "Atención médica completa en el extranjero",
+        "image": "https://cdn-icons-png.flaticon.com/512/942/942790.png",
+        "price": {
+          "currency": "USD",
+          "amount": 35.00
+        }
+      },
+      {
+        "id": "AS1006",
+        "name": "Asistencia vehicular",
+        "description": "Soporte técnico y grúa en carretera durante el viaje",
+        "image": "https://cdn-icons-png.flaticon.com/512/743/743922.png",
+        "price": {
+          "currency": "USD",
+          "amount": 20.00
+        }
+      },
+      {
+        "id": "AS1007",
+        "name": "Cobertura por demoras",
+        "description": "Compensación por retrasos de vuelos o trenes",
+        "image": "https://cdn-icons-png.flaticon.com/512/2474/2474411.png",
+        "price": {
+          "currency": "USD",
+          "amount": 12.00
+        }
+      },
+      {
+        "id": "AS1008",
+        "name": "Seguro de deportes extremos",
+        "description": "Cobertura para actividades de aventura y riesgo",
+        "image": "https://cdn-icons-png.flaticon.com/512/3214/3214713.png",
+        "price": {
+          "currency": "USD",
+          "amount": 28.00
+        }
+      },
+      {
+        "id": "AS1009",
+        "name": "Asistencia multilingüe 24h",
+        "description": "Atención telefónica en varios idiomas durante el viaje",
+        "image": "https://cdn-icons-png.flaticon.com/512/747/747376.png",
+        "price": {
+          "currency": "USD",
+          "amount": 8.00
+        }
+      },
+      {
+        "id": "AS1010",
+        "name": "Protección COVID-19",
+        "description": "Cobertura médica y de cancelación por COVID-19",
+        "image": "https://cdn-icons-png.flaticon.com/512/2785/2785819.png",
+        "price": {
+          "currency": "USD",
+          "amount": 22.00
         }
       }
     ],
@@ -522,6 +1268,7 @@
         "id": "CR1001",
         "name": "Caribe Express",
         "duration_days": 5,
+        "image": "https://www.carnival.com/-/media/images/ship/fleet/carnival-vista/vista-hero.jpg",
         "price": {
           "currency": "USD",
           "amount": 800.00
@@ -532,11 +1279,100 @@
         "id": "CR1002",
         "name": "Mediterráneo Luxury",
         "duration_days": 7,
+        "image": "https://www.msccruceros.es/-/media/global-contents/ships/msc-seaview/msc-seaview-ship-exterior.jpg",
         "price": {
           "currency": "USD",
           "amount": 1500.00
         },
         "available_cabins": 30
+      },
+      {
+        "id": "CR1003",
+        "name": "Fiordos Noruegos",
+        "duration_days": 10,
+        "image": "https://www.hurtigruten.com/globalassets/photos/norway/ports/bergen/hgr-110519-050---bergen---andreash-gundersen.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 2200.00
+        },
+        "available_cabins": 20
+      },
+      {
+        "id": "CR1004",
+        "name": "Aventura en Alaska",
+        "duration_days": 8,
+        "image": "https://www.princess.com/images/global/learn/cruise-destinations/alaska/alaska-cruise-hero.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 1900.00
+        },
+        "available_cabins": 35
+      },
+      {
+        "id": "CR1005",
+        "name": "Islas Griegas Premium",
+        "duration_days": 6,
+        "image": "https://www.celebritycruises.com/blog/content/uploads/2022/06/greece-cruise-santorini-1600x900.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 1400.00
+        },
+        "available_cabins": 25
+      },
+      {
+        "id": "CR1006",
+        "name": "Crucero por el Nilo",
+        "duration_days": 4,
+        "image": "https://www.nilecruiseholidays.com/images/nile-river-cruise.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 700.00
+        },
+        "available_cabins": 40
+      },
+      {
+        "id": "CR1007",
+        "name": "Pacífico Sur Aventura",
+        "duration_days": 9,
+        "image": "https://www.royalcaribbean.com/content/dam/royal/data/ports/papeete-tahiti-french-polynesia/papeete-tahiti-french-polynesia-canoes.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 2100.00
+        },
+        "available_cabins": 28
+      },
+      {
+        "id": "CR1008",
+        "name": "Asia Discovery",
+        "duration_days": 12,
+        "image": "https://www.ncl.com/sites/default/files/styles/hero_image/public/2018-03/Asia-Hero-2.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 2600.00
+        },
+        "available_cabins": 18
+      },
+      {
+        "id": "CR1009",
+        "name": "Antártida Expedición",
+        "duration_days": 14,
+        "image": "https://www.hurtigruten.com/globalassets/photos/destinations/antarctica/antarctica-expedition-ship.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 4800.00
+        },
+        "available_cabins": 10
+      },
+      {
+        "id": "CR1010",
+        "name": "Bahamas Relax",
+        "duration_days": 5,
+        "image": "https://www.royalcaribbean.com/content/dam/royal/data/ports/perfect-day-cococay-bahamas/perfect-day-cococay-bahamas-waterpark.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 850.00
+        },
+        "available_cabins": 45
       }
     ],
     "traslados": [
@@ -545,6 +1381,7 @@
         "type": "Airport to Hotel",
         "vehicle": "Van",
         "seats": 8,
+        "image": "https://cdn.pixabay.com/photo/2018/03/06/16/16/van-3201813_1280.jpg",
         "price": {
           "currency": "USD",
           "amount": 25.00
@@ -556,9 +1393,106 @@
         "type": "Hotel to Airport",
         "vehicle": "Sedan",
         "seats": 4,
+        "image": "https://cdn.pixabay.com/photo/2017/01/06/19/15/car-1957037_1280.jpg",
         "price": {
           "currency": "USD",
           "amount": 20.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1003",
+        "type": "City to City",
+        "vehicle": "Bus",
+        "seats": 40,
+        "image": "https://cdn.pixabay.com/photo/2015/05/15/14/47/bus-768688_1280.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 45.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1004",
+        "type": "Private Airport Transfer",
+        "vehicle": "Luxury Sedan",
+        "seats": 3,
+        "image": "https://cdn.pixabay.com/photo/2016/03/27/19/47/mercedes-1287228_1280.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 60.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1005",
+        "type": "Hotel to Port",
+        "vehicle": "Minibus",
+        "seats": 15,
+        "image": "https://cdn.pixabay.com/photo/2014/05/03/01/04/mini-bus-336933_1280.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 30.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1006",
+        "type": "Port to Hotel",
+        "vehicle": "SUV",
+        "seats": 5,
+        "image": "https://cdn.pixabay.com/photo/2017/09/07/08/57/suv-2729371_1280.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 35.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1007",
+        "type": "Hotel to Train Station",
+        "vehicle": "Sedan",
+        "seats": 4,
+        "image": "https://cdn.pixabay.com/photo/2015/01/19/13/51/taxi-604420_1280.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 18.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1008",
+        "type": "Group Transfer Airport-Hotel",
+        "vehicle": "Coach Bus",
+        "seats": 50,
+        "image": "https://cdn.pixabay.com/photo/2017/09/12/17/11/bus-2744146_1280.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 20.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1009",
+        "type": "VIP Transfer",
+        "vehicle": "Limousine",
+        "seats": 4,
+        "image": "https://cdn.pixabay.com/photo/2015/01/19/13/51/limousine-604422_1280.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 100.00
+        },
+        "available": true
+      },
+      {
+        "id": "TRF1010",
+        "type": "Mountain Resort Transfer",
+        "vehicle": "4x4",
+        "seats": 5,
+        "image": "https://cdn.pixabay.com/photo/2016/10/06/01/12/jeep-1715805_1280.jpg",
+        "price": {
+          "currency": "USD",
+          "amount": 55.00
         },
         "available": true
       }

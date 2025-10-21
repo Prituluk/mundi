@@ -1,10 +1,16 @@
+import styles from './VuelosSection.module.css';
+
 export default function CrucerosSection({ packages }: { packages: any[] }) {
   return (
-    <section>
-      <h2>Cruceros</h2>
-      <ul>
+    <section className={styles.vuelosSection}>
+      <h2 className={styles.title}>Cruceros</h2>
+      <ul className={styles.flightList}>
         {packages.map((cruise) => (
-          <li key={cruise.id} style={{ marginBottom: "2rem" }}>
+          <li key={cruise.id} className={styles.flightItem}>
+            <div className={styles.imageContainer}>
+
+              <img className={styles.image} width={300} height={300} src={cruise.image} alt="" />
+            </div>
             <h3>{cruise.name}</h3>
             <p><strong>Duración:</strong> {cruise.duration_days} día{cruise.duration_days > 1 ? "s" : ""}</p>
             <p>

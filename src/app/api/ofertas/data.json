@@ -1,0 +1,61 @@
+{
+  "paquetes": [
+    {
+      "id": 1,
+      "nombre": "Aventura Tropical en Brasil",
+      "destino": "Brasil",
+      "descripcion": "Disfruta de las playas de Río de Janeiro, el carnaval, y la selva amazónica.",
+      "duracion_dias": 10,
+      "precio_usd": 1850,
+      "incluye": [
+        "Vuelos ida y vuelta",
+        "Alojamiento 4 estrellas con desayuno",
+        "Excursión al Cristo Redentor",
+        "Tour por el Amazonas"
+      ],
+      "salidas": [
+        "2025-11-05",
+        "2025-12-10",
+        "2026-01-15"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Ruta Cultural por Europa",
+      "destino": "Europa",
+      "descripcion": "Un recorrido por las capitales más emblemáticas de Europa: París, Roma, y Madrid.",
+      "duracion_dias": 15,
+      "precio_usd": 3200,
+      "incluye": [
+        "Vuelos internacionales",
+        "Alojamiento 4 estrellas con desayuno",
+        "Traslados entre ciudades en tren de alta velocidad",
+        "Visitas guiadas en cada ciudad"
+      ],
+      "salidas": [
+        "2025-11-20",
+        "2026-02-05",
+        "2026-03-12"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Exploración de la Patagonia",
+      "destino": "Patagonia",
+      "descripcion": "Descubre los paisajes más impresionantes del sur de Argentina y Chile.",
+      "duracion_dias": 8,
+      "precio_usd": 2100,
+      "incluye": [
+        "Vuelos desde Buenos Aires o Santiago",
+        "Alojamiento 3 y 4 estrellas",
+        "Excursión al Glaciar Perito Moreno",
+        "Trekking en Torres del Paine"
+      ],
+      "salidas": [
+        "2025-12-01",
+        "2026-01-10",
+        "2026-03-05"
+      ]
+    }
+  ]
+}
